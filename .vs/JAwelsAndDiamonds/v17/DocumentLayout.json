@@ -1,0 +1,262 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\jawelsanddiamonds\\view\\customer\\transactiondetail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|solutionrelative:jawelsanddiamonds\\view\\customer\\transactiondetail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|d:\\kuliah\\semester\\4\\psd\\project\\jawelsanddiamonds\\jawelsanddiamonds\\dataset\\dataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|solutionrelative:jawelsanddiamonds\\dataset\\dataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\jawelsanddiamonds\\view\\customer\\myorder.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|solutionrelative:jawelsanddiamonds\\view\\customer\\myorder.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|d:\\kuliah\\semester\\4\\psd\\project\\jawelsanddiamonds\\jawelsanddiamonds\\view\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|solutionrelative:jawelsanddiamonds\\view\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\jawelsanddiamonds\\view\\customer\\transactiondetail.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|solutionrelative:jawelsanddiamonds\\view\\customer\\transactiondetail.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\jawelsanddiamonds\\view\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|solutionrelative:jawelsanddiamonds\\view\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\jawelsanddiamonds\\view\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|solutionrelative:jawelsanddiamonds\\view\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\jawelsanddiamonds\\view\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|solutionrelative:jawelsanddiamonds\\view\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\jawelsanddiamonds\\view\\customer\\cart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|solutionrelative:jawelsanddiamonds\\view\\customer\\cart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\jawelsanddiamonds\\view\\customer\\cart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|solutionrelative:jawelsanddiamonds\\view\\customer\\cart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\jawelsanddiamonds\\controller\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|solutionrelative:jawelsanddiamonds\\controller\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\jawelsanddiamonds\\repository\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|solutionrelative:jawelsanddiamonds\\repository\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__KULIAH_SEMESTER_4_PSD_PROJECT_JAWELSANDDIAMONDS_JAWELSANDDIAMONDS_APP_DATA_DATABASE.MDF/True/SqlTable/dbo.Cart.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\jawelsanddiamonds\\view\\details.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|solutionrelative:jawelsanddiamonds\\view\\details.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\jawelsanddiamonds\\view\\details.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E7245A5F-5CB0-4D2F-A5F0-C9B26333FCC2}|JAwelsAndDiamonds\\JAwelsAndDiamonds.csproj|solutionrelative:jawelsanddiamonds\\view\\details.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataSet1.xsd",
+              "DocumentMoniker": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\Dataset\\DataSet1.xsd",
+              "RelativeDocumentMoniker": "JAwelsAndDiamonds\\Dataset\\DataSet1.xsd",
+              "ToolTip": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\Dataset\\DataSet1.xsd",
+              "RelativeToolTip": "JAwelsAndDiamonds\\Dataset\\DataSet1.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2025-05-30T10:58:50.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransactionDetail.aspx",
+              "DocumentMoniker": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\View\\Customer\\TransactionDetail.aspx",
+              "RelativeDocumentMoniker": "JAwelsAndDiamonds\\View\\Customer\\TransactionDetail.aspx",
+              "ToolTip": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\View\\Customer\\TransactionDetail.aspx",
+              "RelativeToolTip": "JAwelsAndDiamonds\\View\\Customer\\TransactionDetail.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-30T03:19:31.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransactionDetail.aspx.cs",
+              "DocumentMoniker": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\View\\Customer\\TransactionDetail.aspx.cs",
+              "RelativeDocumentMoniker": "JAwelsAndDiamonds\\View\\Customer\\TransactionDetail.aspx.cs",
+              "ToolTip": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\View\\Customer\\TransactionDetail.aspx.cs",
+              "RelativeToolTip": "JAwelsAndDiamonds\\View\\Customer\\TransactionDetail.aspx.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T03:19:38.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyOrder.aspx.cs",
+              "DocumentMoniker": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\View\\Customer\\MyOrder.aspx.cs",
+              "RelativeDocumentMoniker": "JAwelsAndDiamonds\\View\\Customer\\MyOrder.aspx.cs",
+              "ToolTip": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\View\\Customer\\MyOrder.aspx.cs",
+              "RelativeToolTip": "JAwelsAndDiamonds\\View\\Customer\\MyOrder.aspx.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA1wCoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T03:17:19.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Site.Master.cs",
+              "DocumentMoniker": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\View\\Site.Master.cs",
+              "RelativeDocumentMoniker": "JAwelsAndDiamonds\\View\\Site.Master.cs",
+              "ToolTip": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\View\\Site.Master.cs",
+              "RelativeToolTip": "JAwelsAndDiamonds\\View\\Site.Master.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAQwFYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T03:11:24.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.aspx",
+              "DocumentMoniker": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\View\\Home.aspx",
+              "RelativeDocumentMoniker": "JAwelsAndDiamonds\\View\\Home.aspx",
+              "ToolTip": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\View\\Home.aspx",
+              "RelativeToolTip": "JAwelsAndDiamonds\\View\\Home.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-30T02:54:44.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Site.Master",
+              "DocumentMoniker": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\View\\Site.Master",
+              "RelativeDocumentMoniker": "JAwelsAndDiamonds\\View\\Site.Master",
+              "ToolTip": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\View\\Site.Master",
+              "RelativeToolTip": "JAwelsAndDiamonds\\View\\Site.Master",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-30T03:11:22.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\Controller\\CartController.cs",
+              "RelativeDocumentMoniker": "JAwelsAndDiamonds\\Controller\\CartController.cs",
+              "ToolTip": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\Controller\\CartController.cs",
+              "RelativeToolTip": "JAwelsAndDiamonds\\Controller\\CartController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA8wCMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T03:06:11.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "dbo.Cart.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__KULIAH_SEMESTER_4_PSD_PROJECT_JAWELSANDDIAMONDS_JAWELSANDDIAMONDS_APP_DATA_DATABASE.MDF/True/SqlTable/dbo.Cart.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__KULIAH_SEMESTER_4_PSD_PROJECT_JAWELSANDDIAMONDS_JAWELSANDDIAMONDS_APP_DATA_DATABASE.MDF/True/SqlTable/dbo.Cart.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-30T02:59:06.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cart.aspx.cs",
+              "DocumentMoniker": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\View\\Customer\\Cart.aspx.cs",
+              "RelativeDocumentMoniker": "JAwelsAndDiamonds\\View\\Customer\\Cart.aspx.cs",
+              "ToolTip": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\View\\Customer\\Cart.aspx.cs",
+              "RelativeToolTip": "JAwelsAndDiamonds\\View\\Customer\\Cart.aspx.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAA8wGYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T02:58:47.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\View\\Login.aspx",
+              "RelativeDocumentMoniker": "JAwelsAndDiamonds\\View\\Login.aspx",
+              "ToolTip": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\View\\Login.aspx",
+              "RelativeToolTip": "JAwelsAndDiamonds\\View\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-30T03:16:51.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cart.aspx",
+              "DocumentMoniker": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\View\\Customer\\Cart.aspx",
+              "RelativeDocumentMoniker": "JAwelsAndDiamonds\\View\\Customer\\Cart.aspx",
+              "ToolTip": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\View\\Customer\\Cart.aspx",
+              "RelativeToolTip": "JAwelsAndDiamonds\\View\\Customer\\Cart.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-30T02:58:41.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\Repository\\CartRepository.cs",
+              "RelativeDocumentMoniker": "JAwelsAndDiamonds\\Repository\\CartRepository.cs",
+              "ToolTip": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\Repository\\CartRepository.cs",
+              "RelativeToolTip": "JAwelsAndDiamonds\\Repository\\CartRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T02:55:17.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.aspx.cs",
+              "DocumentMoniker": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\View\\Details.aspx.cs",
+              "RelativeDocumentMoniker": "JAwelsAndDiamonds\\View\\Details.aspx.cs",
+              "ToolTip": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\View\\Details.aspx.cs",
+              "RelativeToolTip": "JAwelsAndDiamonds\\View\\Details.aspx.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAuwHAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T02:52:56.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.aspx",
+              "DocumentMoniker": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\View\\Details.aspx",
+              "RelativeDocumentMoniker": "JAwelsAndDiamonds\\View\\Details.aspx",
+              "ToolTip": "D:\\KULIAH\\Semester\\4\\PSD\\Project\\JAwelsAndDiamonds\\JAwelsAndDiamonds\\View\\Details.aspx",
+              "RelativeToolTip": "JAwelsAndDiamonds\\View\\Details.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-30T02:52:44.302Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

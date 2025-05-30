@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs"
+    Inherits="JAwelsAndDiamonds.View.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Jawels & Diamond</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="navbar">
+            <%-- Guest --%>
+            <asp:PlaceHolder ID="pnlGuest" runat="server" Visible="false">
+                <nav>
+                    <a href='<%: ResolveUrl("~/View/Home.aspx") %>'>Home</a> |
+                    <asp:Button ID="Btn_SignIn" runat="server" Text="Login" OnClick="Btn_SignIn_Click" />
+                    |
+                    <asp:Button ID="Btn_SignUp" runat="server" Text="Register" OnClick="Btn_SignUp_Click" />
+                </nav>
+            </asp:PlaceHolder>
+
+            <%-- Admin --%>
+            <asp:PlaceHolder ID="pnlAdmin" runat="server" Visible="false">
+                <nav>
+                    <%-- <a href="~/Home.aspx">Home</a> |--%>
+                    <a href='<%: ResolveUrl("~/View/Home.aspx") %>'>Home</a> |
+                    <a href='<%: ResolveUrl("~/View/Admin/AddJewel.aspx") %>'>Add Jewel</a> |
+                    <a href='<%: ResolveUrl("~/View/Admin/Report.aspx") %>'>Reports</a> |
+                    <a href='<%: ResolveUrl("~/View/Admin/HandleOrders.aspx") %>'>Handle Orders</a> |
+                    <a href='<%: ResolveUrl("~/View/Profile.aspx") %>'>Profile</a> |
+                    
+                    <asp:Button ID="Btn_SignOut" runat="server" Text="Logout" OnClick="Btn_SignOut_Click" />
+                </nav>
+            </asp:PlaceHolder>
+
+            <%-- Customer --%>
+            <asp:PlaceHolder ID="pnlCustomer" runat="server" Visible="false">
+                <nav>
+                    <a href='<%: ResolveUrl("~/View/Home.aspx") %>'>Home</a> |
+                    <%--<a href='<%: ResolveUrl("~/View/Customer/Cart.aspx") %>'>Cart</a> |--%>
+                    <asp:HyperLink ID="Button_Cart" runat="server" NavigateUrl="#" >Cart</asp:HyperLink> |
+                    <%--<asp:HyperLink ID="Btn_Cart" runat="server" NavigateUrl="#">Cart</asp:HyperLink>|--%>
+                    <a href='<%: ResolveUrl("~/View/Customer/MyOrder.aspx") %>'>My Order</a> |
+                    <a href='<%: ResolveUrl("~/View/Profile.aspx") %>'>Profile</a> |
+
+                    <asp:Button ID="Btn_SignOut2" runat="server" Text="Logout" OnClick="Btn_SignOut_Click" />
+                </nav>
+            </asp:PlaceHolder>
+        </div>
+
+        <div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+
+        <footer style="margin-top: 40px; text-align: center;">
+            <p>Jawels & Diamonds</p>
+        </footer>
+    </form>
+</body>
+</html>
