@@ -24,22 +24,13 @@ namespace JAwelsAndDiamonds.View.Customer
         protected global::System.Web.UI.WebControls.Label TransactionId;
 
         /// <summary>
-        /// JewelName control.
+        /// GVTransactionDetails control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label JewelName;
-
-        /// <summary>
-        /// Quantity control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Quantity;
+        protected global::System.Web.UI.WebControls.GridView GVTransactionDetails;
 
         /// <summary>
         /// btnBack control.

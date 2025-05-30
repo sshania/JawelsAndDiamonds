@@ -50,19 +50,21 @@ namespace JAwelsAndDiamonds.View.Customer
                                               th.TransactionID,
                                               JewelName = jewel.JewelName,
                                               td.Quantity
-                                          }).FirstOrDefault();
+                                          }).ToList();
 
-                if (transactionDetails != null)
+                if (transactionDetails.Any())
                 {
-                    TransactionId.Text = transactionDetails.TransactionID.ToString();
-                    JewelName.Text = transactionDetails.JewelName;
-                    Quantity.Text = transactionDetails.Quantity.ToString();
+                    TransactionId.Text = id.ToString(); 
+
+                    GVTransactionDetails.DataSource = transactionDetails;
+                    GVTransactionDetails.DataBind();
                 }
                 else
                 {
                     Response.Redirect("~/View/Customer/MyOrder.aspx");
                 }
             }
+            
         }
 
         protected void btnBack_Click(object sender, EventArgs e)

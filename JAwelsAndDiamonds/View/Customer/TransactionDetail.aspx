@@ -8,18 +8,25 @@
         <strong>Transaction ID:</strong>
         <asp:Label ID="TransactionId" runat="server" Text=""></asp:Label>
     </div>
+    <asp:GridView ID="GVTransactionDetails" runat="server" AutoGenerateColumns="false" CssClass="table table-bordered" GridLines="None">
+        <Columns>
+            <asp:BoundField DataField="TransactionID" HeaderText="Transaction ID" />
+            <asp:BoundField DataField="JewelName" HeaderText="Jewel Name" />
+            <asp:BoundField DataField="Quantity" HeaderText="Quantity" />
+        </Columns>
+    </asp:GridView>
 
-    <div class="detail">
+    <%--<div ">
         <strong>Jewel Name:</strong>
         <asp:Label ID="JewelName" runat="server" Text=""></asp:Label>
     </div>
 
-    <div class="detail">
+    <div >
         <strong>Quantity:</strong>
         <asp:Label ID="Quantity" runat="server" Text=""></asp:Label>
-    </div>
+    </div>--%>
 
-    <div class="button-container">
+    <div >
         <asp:Button ID="btnBack" runat="server" Text="Back to My Orders" OnClick="btnBack_Click" />
     </div>
 

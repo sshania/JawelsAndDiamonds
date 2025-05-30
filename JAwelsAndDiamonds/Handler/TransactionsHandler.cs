@@ -8,10 +8,16 @@ namespace JAwelsAndDiamonds.Handler
 {
 	public class TransactionsHandler
 	{
-        public static List<TransactionDetail> GetTransactionDetails(int transactionId)
+        TransactionRepository repo = new TransactionRepository();
+        public  List<TransactionDetail> GetTransactionDetails(int transactionId)
         {
-            TransactionRepository repo = new TransactionRepository();
+            
             return repo.GetTransactionDetails(transactionId);
+        }
+
+        public  List<TransactionHeader> GetData()
+        {
+            return repo.GetFinishedTransaction();
         }
     }
 }

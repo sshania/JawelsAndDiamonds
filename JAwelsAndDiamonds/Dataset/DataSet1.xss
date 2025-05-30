@@ -11,7 +11,7 @@
     <Shape ID="DesignTable:MsCategory" ZOrder="14" X="82" Y="405" Height="79" Width="154" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="75" />
     <Shape ID="DesignTable:MsJewel" ZOrder="9" X="267" Y="250" Height="171" Width="150" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="167" />
     <Shape ID="DesignTable:MsUser" ZOrder="2" X="784" Y="244" Height="194" Width="150" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="190" />
-    <Shape ID="DesignTable:TransactionDetail" ZOrder="7" X="981" Y="99" Height="125" Width="194" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="121" />
+    <Shape ID="DesignTable:TransactionDetail" ZOrder="7" X="981" Y="99" Height="171" Width="194" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="167" />
     <Shape ID="DesignTable:TransactionHeader" ZOrder="1" X="538" Y="240" Height="148" Width="204" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="144" />
   </Shapes>
   <Connectors>
