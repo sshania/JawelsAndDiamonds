@@ -72,13 +72,13 @@ namespace JAwelsAndDiamonds.View.Admin
             if (result == "Your Item added successfully")
             {
                 clearText();
-                //Response.Redirect("Home.aspx");
+                Response.Redirect(ResolveUrl("~/View/Home.aspx"));
             }
         }
 
         protected void btnCancel_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Home.aspx");
+            Response.Redirect(ResolveUrl("~/View/Home.aspx"));
         }
 
     } 

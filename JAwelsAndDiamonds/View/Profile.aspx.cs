@@ -18,14 +18,18 @@ namespace JAwelsAndDiamonds.View
         {
             if (!IsPostBack)
             {
-                if (Session["Username"] == null || Session["Email"] == null || Session["Password"] == null)
+                if (Session["user"] == null)
                 {
                     Response.Redirect("Login.aspx");
                     return;
                 }
 
-                lblUsername.Text = Session["username"].ToString();
-                lblEmail.Text = Session["email"].ToString();
+                MsUser user = (MsUser)Session["user"];
+                lblUsername.Text = user.UserName;
+                lblEmail.Text = user.UserEmail;
+
+                //lblUsername.Text = Session["username"].ToString();
+                //lblEmail.Text = Session["email"].ToString();
             }
         }
 

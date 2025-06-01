@@ -37,7 +37,7 @@ namespace JAwelsAndDiamonds.View.Admin
 
             CrystalReport1 report = new CrystalReport1();
             CrystalReportViewer1.ReportSource = report;
-            DataSet1 ds = GetDataAllData();
+            DataSet1 ds = GetDataAllData(th.GetData());
             report.SetDataSource(ds);
 
             //TransactionReport report = new TransactionReport();
@@ -49,16 +49,16 @@ namespace JAwelsAndDiamonds.View.Admin
 
         }
 
-        public DataSet1 GetDataAllData()
+        public DataSet1 GetDataAllData(List<TransactionHeader> transactions)
         {
             DataSet1 dataset = new DataSet1();
             var headertable = dataset.TransactionHeader;
             var detailtable = dataset.TransactionDetail;
 
-            List<TransactionHeader> transaction;
-            transaction = db.TransactionHeaders.ToList();
+            //List<TransactionHeader> transaction;
+            //transaction = db.TransactionHeaders.ToList();
 
-            foreach (TransactionHeader t in transaction)
+            foreach (TransactionHeader t in transactions)
             {
                 var hrow = headertable.NewRow();
                 hrow["TransactionID"] = t.TransactionID;
@@ -69,18 +69,23 @@ namespace JAwelsAndDiamonds.View.Admin
 
                 headertable.Rows.Add(hrow);
 
-                foreach (TransactionDetail mstd in t.TransactionDetails)
+                if (t.TransactionDetails != null)
                 {
-                    var drow = detailtable.NewRow();
-                    drow["TransactionID"] = mstd.TransactionID;
-                    drow["Quantity"] = mstd.Quantity;
-                    drow["JewelID"] = mstd.JewelID;
+                    foreach (var detail in t.TransactionDetails)
+                    {
+                        if (detail.TransactionID != t.TransactionID) continue; // ⛔ Pastikan match
 
-                    int price = mstd.MsJewel?.JewelPrice ?? 0;
-                    drow["Price"] = price;
-                    drow["Subtotal"] = price * mstd.Quantity;
+                        var drow = detailtable.NewRow();
+                        drow["TransactionID"] = detail.TransactionID;
+                        drow["Quantity"] = detail.Quantity;
+                        drow["JewelID"] = detail.JewelID;
 
-                    detailtable.Rows.Add(drow);
+                        int price = detail.MsJewel?.JewelPrice ?? 0;
+                        drow["Price"] = price;
+                        drow["Subtotal"] = price * detail.Quantity;
+
+                        detailtable.Rows.Add(drow);
+                    }
                 }
             }
             
