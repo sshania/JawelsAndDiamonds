@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.Entity;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -59,7 +60,10 @@ namespace JAwelsAndDiamonds.Repository
 
         public List<TransactionHeader> GetFinishedTransaction()
         {
-            var finishedTransactions = (from x in db.TransactionHeaders where x.TransactionStatus == "Done" select x).ToList();
+            var finishedTransactions = db.TransactionHeaders
+                .Include(th => th.TransactionDetails.Select(d => d.MsJewel))
+                .Where(th => th.TransactionStatus == "Done")
+                .ToList();
 
             return finishedTransactions;
         }

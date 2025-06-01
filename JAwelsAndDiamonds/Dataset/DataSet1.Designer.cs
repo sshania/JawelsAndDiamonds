@@ -46,11 +46,11 @@ namespace JAwelsAndDiamonds.Dataset {
         
         private global::System.Data.DataRelation relationMsUser_TransactionHeader;
         
-        private global::System.Data.DataRelation relationTransactionHeader_TransactionDetail;
-        
         private global::System.Data.DataRelation relationMsJewel_Cart;
         
         private global::System.Data.DataRelation relationMsJewel_TransactionDetail;
+        
+        private global::System.Data.DataRelation relationTransactionHeader_TransactionDetail;
         
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
@@ -356,9 +356,9 @@ namespace JAwelsAndDiamonds.Dataset {
             this.relationMsCategory_MsJewel = this.Relations["MsCategory_MsJewel"];
             this.relationMsUser_Cart = this.Relations["MsUser_Cart"];
             this.relationMsUser_TransactionHeader = this.Relations["MsUser_TransactionHeader"];
-            this.relationTransactionHeader_TransactionDetail = this.Relations["TransactionHeader_TransactionDetail"];
             this.relationMsJewel_Cart = this.Relations["MsJewel_Cart"];
             this.relationMsJewel_TransactionDetail = this.Relations["MsJewel_TransactionDetail"];
+            this.relationTransactionHeader_TransactionDetail = this.Relations["TransactionHeader_TransactionDetail"];
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -399,10 +399,6 @@ namespace JAwelsAndDiamonds.Dataset {
                         this.tableMsUser.UserIDColumn}, new global::System.Data.DataColumn[] {
                         this.tableTransactionHeader.UserIDColumn}, false);
             this.Relations.Add(this.relationMsUser_TransactionHeader);
-            this.relationTransactionHeader_TransactionDetail = new global::System.Data.DataRelation("TransactionHeader_TransactionDetail", new global::System.Data.DataColumn[] {
-                        this.tableTransactionHeader.TransactionIDColumn}, new global::System.Data.DataColumn[] {
-                        this.tableTransactionDetail.TransactionIDColumn}, false);
-            this.Relations.Add(this.relationTransactionHeader_TransactionDetail);
             this.relationMsJewel_Cart = new global::System.Data.DataRelation("MsJewel_Cart", new global::System.Data.DataColumn[] {
                         this.tableMsJewel.JewelIDColumn}, new global::System.Data.DataColumn[] {
                         this.tableCart.JewelIDColumn}, false);
@@ -411,6 +407,10 @@ namespace JAwelsAndDiamonds.Dataset {
                         this.tableMsJewel.JewelIDColumn}, new global::System.Data.DataColumn[] {
                         this.tableTransactionDetail.JewelIDColumn}, false);
             this.Relations.Add(this.relationMsJewel_TransactionDetail);
+            this.relationTransactionHeader_TransactionDetail = new global::System.Data.DataRelation("TransactionHeader_TransactionDetail", new global::System.Data.DataColumn[] {
+                        this.tableTransactionHeader.TransactionIDColumn}, new global::System.Data.DataColumn[] {
+                        this.tableTransactionDetail.TransactionIDColumn}, false);
+            this.Relations.Add(this.relationTransactionHeader_TransactionDetail);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2047,7 +2047,7 @@ namespace JAwelsAndDiamonds.Dataset {
             
             private global::System.Data.DataColumn columnPrice;
             
-            private global::System.Data.DataColumn columnSubtotal;
+            private global::System.Data.DataColumn columnSubTotal;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
@@ -2124,9 +2124,9 @@ namespace JAwelsAndDiamonds.Dataset {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn SubtotalColumn {
+            public global::System.Data.DataColumn SubTotalColumn {
                 get {
-                    return this.columnSubtotal;
+                    return this.columnSubTotal;
                 }
             }
             
@@ -2167,7 +2167,7 @@ namespace JAwelsAndDiamonds.Dataset {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public TransactionDetailRow AddTransactionDetailRow(string TransactionDetailID, TransactionHeaderRow parentTransactionHeaderRowByTransactionHeader_TransactionDetail, MsJewelRow parentMsJewelRowByMsJewel_TransactionDetail, string Quantity, string Price, string Subtotal) {
+            public TransactionDetailRow AddTransactionDetailRow(string TransactionDetailID, TransactionHeaderRow parentTransactionHeaderRowByTransactionHeader_TransactionDetail, MsJewelRow parentMsJewelRowByMsJewel_TransactionDetail, string Quantity, string Price, string SubTotal) {
                 TransactionDetailRow rowTransactionDetailRow = ((TransactionDetailRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         TransactionDetailID,
@@ -2175,7 +2175,7 @@ namespace JAwelsAndDiamonds.Dataset {
                         null,
                         Quantity,
                         Price,
-                        Subtotal};
+                        SubTotal};
                 if ((parentTransactionHeaderRowByTransactionHeader_TransactionDetail != null)) {
                     columnValuesArray[1] = parentTransactionHeaderRowByTransactionHeader_TransactionDetail[0];
                 }
@@ -2209,7 +2209,7 @@ namespace JAwelsAndDiamonds.Dataset {
                 this.columnJewelID = base.Columns["JewelID"];
                 this.columnQuantity = base.Columns["Quantity"];
                 this.columnPrice = base.Columns["Price"];
-                this.columnSubtotal = base.Columns["Subtotal"];
+                this.columnSubTotal = base.Columns["SubTotal"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2225,8 +2225,8 @@ namespace JAwelsAndDiamonds.Dataset {
                 base.Columns.Add(this.columnQuantity);
                 this.columnPrice = new global::System.Data.DataColumn("Price", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnPrice);
-                this.columnSubtotal = new global::System.Data.DataColumn("Subtotal", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnSubtotal);
+                this.columnSubTotal = new global::System.Data.DataColumn("SubTotal", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnSubTotal);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3585,28 +3585,17 @@ namespace JAwelsAndDiamonds.Dataset {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public string Subtotal {
+            public string SubTotal {
                 get {
                     try {
-                        return ((string)(this[this.tableTransactionDetail.SubtotalColumn]));
+                        return ((string)(this[this.tableTransactionDetail.SubTotalColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Subtotal\' in table \'TransactionDetail\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'SubTotal\' in table \'TransactionDetail\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableTransactionDetail.SubtotalColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public TransactionHeaderRow TransactionHeaderRow {
-                get {
-                    return ((TransactionHeaderRow)(this.GetParentRow(this.Table.ParentRelations["TransactionHeader_TransactionDetail"])));
-                }
-                set {
-                    this.SetParentRow(value, this.Table.ParentRelations["TransactionHeader_TransactionDetail"]);
+                    this[this.tableTransactionDetail.SubTotalColumn] = value;
                 }
             }
             
@@ -3618,6 +3607,17 @@ namespace JAwelsAndDiamonds.Dataset {
                 }
                 set {
                     this.SetParentRow(value, this.Table.ParentRelations["MsJewel_TransactionDetail"]);
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public TransactionHeaderRow TransactionHeaderRow {
+                get {
+                    return ((TransactionHeaderRow)(this.GetParentRow(this.Table.ParentRelations["TransactionHeader_TransactionDetail"])));
+                }
+                set {
+                    this.SetParentRow(value, this.Table.ParentRelations["TransactionHeader_TransactionDetail"]);
                 }
             }
             
@@ -3683,14 +3683,14 @@ namespace JAwelsAndDiamonds.Dataset {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public bool IsSubtotalNull() {
-                return this.IsNull(this.tableTransactionDetail.SubtotalColumn);
+            public bool IsSubTotalNull() {
+                return this.IsNull(this.tableTransactionDetail.SubTotalColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void SetSubtotalNull() {
-                this[this.tableTransactionDetail.SubtotalColumn] = global::System.Convert.DBNull;
+            public void SetSubTotalNull() {
+                this[this.tableTransactionDetail.SubTotalColumn] = global::System.Convert.DBNull;
             }
         }
         
